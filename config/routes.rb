@@ -6,4 +6,9 @@ Rails.application.routes.draw do
   delete '/sign-out/:id' => 'users#signout'
   patch '/change-password/:id' => 'users#changepw'
   resources :users, only: [:index, :show]
+  get '/products' => 'products#index'
+  post '/products' => 'products#create'
+  get '/products/:id' => 'products#show'
+  patch '/products/:id' => 'products#update'
+  delete '/products/:id', to: 'products#destroy'
 end
