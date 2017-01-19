@@ -17,3 +17,7 @@ Front-End Repo: https://github.com/jdaly04/capstone-front-end
 | POST   | `/sign-in`             | `users#signin`    |
 | PATCH  | `/change-password/:id` | `users#changepw`  |
 | DELETE | `/sign-out/:id`        | `users#signout`   |
+| POST   | `/products`            | `products#create` |
+| GET    | `/products`            | `products#index`  |
+| PATCH  | `/products/:id`        | `products#update` |
+| DELETE | `/products/:id`        | `products#destroy`|
