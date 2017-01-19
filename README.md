@@ -6,7 +6,7 @@ Front-End Repo: https://github.com/jdaly04/capstone-front-end
 
 
 ### App Screenshot:
-![Alt text](/assets/styles/images/screenshot_app.png?raw=true "App Screenshot")
+![Alt text](/app/images/app_screenshot.png)
 
 ---
 ### Technologies Used:
