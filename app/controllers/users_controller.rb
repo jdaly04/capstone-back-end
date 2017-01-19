@@ -2,15 +2,15 @@
 class UsersController < ProtectedController
   skip_before_action :authenticate, only: [:signup, :signin]
 
-  # POST '/sign-up'
-  def signup
-    user = User.create(user_creds)
-    if user.valid?
-      render json: user, status: :created
-    else
-      head :bad_request
-    end
-  end
+  # # POST '/sign-up'
+  # def signup
+  #   user = User.create(user_creds)
+  #   if user.valid?
+  #     render json: user, status: :created
+  #   else
+  #     head :bad_request
+  #   end
+  # end
 
   # POST '/sign-in'
   def signin
